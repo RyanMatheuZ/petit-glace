@@ -1,0 +1,135 @@
+/* Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+/* Google Font - Pacifico */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* Bootstrap Icons */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+:root {
+    --primary-color: #E9516D;
+    --secondary-color: #AE4B22;
+    --bg-color: #FFF4E9;
+    --black-color: #000;
+    --black-200-color: #212429;
+    --white-color: #FFF;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: 'Poppins', sans-serif;
+    margin-top: 8rem !important;
+}
+
+h1 {
+    color: var(--black-200-color);
+    font: normal normal 700 clamp(6rem, 10vw - 0.5rem , 10rem)/1 'Poppins', sans-serif;
+}
+
+h2 {
+    color: var(--secondary-color);
+    font: normal normal 400 clamp(3rem, 5vw - 0.25rem , 3rem)/1 'Pacifico', sans-serif;
+}
+
+h3 {
+    color: var(--secondary-color);
+    font: normal normal 500 clamp(2rem, 4.5vw - 1rem , 3rem)/1 'Pacifico', sans-serif;
+}
+
+hr {
+    border: 2px solid var(--secondary-color);
+    width: 40px;
+}
+
+.description {
+    color: var(--black-200-color);
+}
+
+.font-contour {
+    -webkit-text-fill-color: var(--bg-color);
+    -webkit-text-stroke-color: var(--black-200-color); 
+    -webkit-text-stroke-width: 3px;
+}
+
+.pipe-separation,
+.pipe-separation:hover {
+    color: var(--black-color) !important;
+    cursor: default;
+}
+
+.shape-pink {
+    z-index: -1;
+}
+
+.shape-white {
+    fill: var(--white-color);
+    transform: translateY(-2%);
+}
+
+.w-fit-content {
+    margin: 0 auto;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+@media (max-width: 992px) {
+    .shape-pink {
+        width: 95%;
+    }
+
+    .w-fit-content h1, 
+    .w-fit-content h2 {
+        text-align: center !important;
+    }
+
+    .w-fit-content h2 {
+        color: var(--black-200-color);
+    }
+
+    .girl-image {
+        margin: 2rem 0;
+    }
+}
+
+.border-bottom {
+    border-bottom: 2px solid var(--black-color) !important;
+}
+
+.bg-light {
+    background-color: var(--white-color) !important;
+}
+
+.nav-link {
+    color: var(--secondary-color);
+}
+.nav-link:hover {
+    color: var(--primary-color);
+}
+
+.bi.bi-justify-right {
+    color: var(--secondary-color);
+    font-size: 30px;
+}
+
+.card {
+    border: none;
+    width: 235px;
+}
+
+.card span {
+    color: var(--black-200-color);
+    font-size: 1.25rem;
+}
+
+.card-style {
+    background-color: transparent;
+    border-radius: 15px;
+    border: none;
+    padding: 3rem 1rem;
+    transition: 0.3s ease-in;
+}
+.card-style:hover {
+    background-color: var(--white-color);
+    box-shadow: 0 0 20px var(--black-200-color);
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
