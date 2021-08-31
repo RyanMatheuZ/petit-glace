@@ -2,7 +2,7 @@ const allProducts = [
     {
         id: document.getElementById('chocos-cream'),
         origin: 'animal',
-        price: 1.99
+        price: 2.00
     },
     {
         id: document.getElementById('sugary-dream'),

@@ -67,9 +67,30 @@
                 </article>
             </div>
 
+            <div class="row">
+                <select id="filter-options" class="mx-auto mt-3 form-select form-select-md" aria-label=".form-select-md">
+                    <option value="">Escolha um filtro:</option>
+                    
+                    <optgroup label="Remover:">
+                        <option value="">Filtro</option>
+                    </optgroup>
+                    
+                    <optgroup label="Preço:">
+                        <option value="between-two-four">R$ 2,00 - R$ 4,99</option>
+                        <option value="between-five-seven">R$ 5,00 - 7,99</option>
+                        <option value="more-eight">R$ 8,00+</option>
+                    </optgroup>
+
+                    <optgroup label="Origem:">
+                        <option value="animal">Animal</option>
+                        <option value="vegan">Vegana</option>
+                    </optgroup>
+                </select>
+            </div>
+
             <div class="row text-center">
                 <article class="col-12 d-flex flex-wrap justify-content-evenly">
-                    <div class="card my-3 shadow-lg text-start card-ice-cream">
+                    <div id="chocos-cream" class="card my-3 shadow-lg text-start card-ice-cream">
                         <div class="d-flex align-items-center justify-content-center chocos-cream-background">
                             <img src="../assets/img/products/chocos-dream-image.png" alt="Sorvete Choco'S Cream">
                         </div>
@@ -99,15 +120,11 @@
                                         <span class="fs-6 fw-normal chocos-cream-price">/un.</span>
                                     </p>
                                 </article>
-
-                                <article class="col-5">
-                                    <img src="../assets/img/products/vegan-icon.svg" alt="Produto vegano" class="img-fluid w-100">
-                                </article>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card my-3 shadow-lg text-start card-ice-cream">
+                    <div id="sugary-dream" class="card my-3 shadow-lg text-start card-ice-cream">
                         <div class="d-flex align-items-center justify-content-center sugary-dream-background">
                             <img src="../assets/img/products/sugary-dream.png" alt="Sorvete Sugary Dream">
                         </div>
@@ -137,15 +154,11 @@
                                         <span class="fs-6 fw-normal sugary-dream-price">/un.</span>
                                     </p>
                                 </article>
-
-                                <article class="col-5">
-                                    <img src="../assets/img/products/vegan-icon.svg" alt="Produto vegano" class="img-fluid w-100">
-                                </article>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card my-3 shadow-lg text-start card-ice-cream">
+                    <div id="green-valley" class="card my-3 shadow-lg text-start card-ice-cream">
                         <div class="d-flex align-items-center justify-content-center green-valley-background">
                             <img src="../assets/img/products/green-valley.png" alt="Sorvete Green Valley">
                         </div>
@@ -183,7 +196,7 @@
                         </div>
                     </div>
 
-                    <div class="card my-3 shadow-lg text-start card-ice-cream">
+                    <div id="ice-tower" class="card my-3 shadow-lg text-start card-ice-cream">
                         <div class="d-flex align-items-center justify-content-center ice-tower-background">
                             <img src="../assets/img/products/ice-tower.png" alt="Sorvete Ice Tower">
                         </div>
@@ -221,7 +234,7 @@
                         </div>
                     </div>
 
-                    <div class="card my-3 shadow-lg text-start card-ice-cream">
+                    <div id="sweet-beard" class="card my-3 shadow-lg text-start card-ice-cream">
                         <div class="d-flex align-items-center justify-content-center sweet-beard-background">
                             <img src="../assets/img/products/sweet-beard.png" alt="Sorvete Sweet Beard">
                         </div>
@@ -251,15 +264,11 @@
                                         <span class="fs-6 fw-normal sweet-beard-price">/un.</span>
                                     </p>
                                 </article>
-
-                                <article class="col-5">
-                                    <img src="../assets/img/products/vegan-icon.svg" alt="Produto vegano" class="img-fluid w-100">
-                                </article>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card my-3 shadow-lg text-start card-ice-cream">
+                    <div id="double-color" class="card my-3 shadow-lg text-start card-ice-cream">
                         <div class="d-flex align-items-center justify-content-center double-color-background">
                             <img src="../assets/img/products/double-color.png" alt="Sorvete Double Color">
                         </div>
@@ -289,15 +298,11 @@
                                         <span class="fs-6 fw-normal double-color-price">/un.</span>
                                     </p>
                                 </article>
-
-                                <article class="col-5">
-                                    <img src="../assets/img/products/vegan-icon.svg" alt="Produto vegano" class="img-fluid w-100">
-                                </article>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card my-3 shadow-lg text-start card-ice-cream">
+                    <div id="milk-straw" class="card my-3 shadow-lg text-start card-ice-cream">
                         <div class="d-flex align-items-center justify-content-center milk-straw-background">
                             <img src="../assets/img/products/milk-straw.png" alt="Sorvete Milk Straw">
                         </div>
@@ -327,15 +332,11 @@
                                         <span class="fs-6 fw-normal milk-straw-price">/un.</span>
                                     </p>
                                 </article>
-
-                                <article class="col-5">
-                                    <img src="../assets/img/products/vegan-icon.svg" alt="Produto vegano" class="img-fluid w-100">
-                                </article>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card my-3 shadow-lg text-start card-ice-cream">
+                    <div id="candy-crown" class="card my-3 shadow-lg text-start card-ice-cream">
                         <div class="d-flex align-items-center justify-content-center candy-crown-background">
                             <img src="../assets/img/products/candy-crown.png" alt="Sorvete Candy Crown">
                         </div>
@@ -373,7 +374,7 @@
                         </div>
                     </div>
 
-                    <div class="card my-3 shadow-lg text-start card-ice-cream">
+                    <div id="simple-creamy" class="card my-3 shadow-lg text-start card-ice-cream">
                         <div class="d-flex align-items-center justify-content-center simple-creamy-background">
                             <img src="../assets/img/products/simple-creamy.png" alt="Sorvete Simple Creamy">
                         </div>
@@ -411,7 +412,7 @@
                         </div>
                     </div>
 
-                    <div class="card my-3 shadow-lg text-start card-ice-cream">
+                    <div id="ovomaltine" class="card my-3 shadow-lg text-start card-ice-cream">
                         <div class="d-flex align-items-center justify-content-center ovomaltine-background">
                             <img src="../assets/img/products/ovomaltine.png" alt="Sorvete Ovomaltine">
                         </div>
@@ -441,15 +442,11 @@
                                         <span class="fs-6 fw-normal ovomaltine-price">/un.</span>
                                     </p>
                                 </article>
-
-                                <article class="col-5">
-                                    <img src="../assets/img/products/vegan-icon.svg" alt="Produto vegano" class="img-fluid w-100">
-                                </article>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card my-3 shadow-lg text-start card-ice-cream">
+                    <div id="petit-cream" class="card my-3 shadow-lg text-start card-ice-cream">
                         <div class="d-flex align-items-center justify-content-center petit-cream-background">
                             <img src="../assets/img/products/petit-cream.png" alt="Sorvete Petit Cream">
                         </div>
@@ -479,15 +476,11 @@
                                         <span class="fs-6 fw-normal petit-cream-price">/un.</span>
                                     </p>
                                 </article>
-
-                                <article class="col-5">
-                                    <img src="../assets/img/products/vegan-icon.svg" alt="Produto vegano" class="img-fluid w-100">
-                                </article>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card my-3 shadow-lg text-start card-ice-cream">
+                    <div id="frozen-coffee" class="card my-3 shadow-lg text-start card-ice-cream">
                         <div class="d-flex align-items-center justify-content-center frozen-coffee-background">
                             <img src="../assets/img/products/frozen-coffee.png" alt="Sorvete Frozen Coffee">
                         </div>
@@ -599,8 +592,20 @@
         </div>
     </footer>
     
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+
     <script src="../assets/bootstrap/bootstrap.bundle.min.js"></script>
     <script type="module" src="../assets/js/script.js"></script>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app')
+    </script>
 </body>
 
 </html>

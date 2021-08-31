@@ -44,6 +44,14 @@ footer a.text-decoration-none:hover {
     color: var(--primary-color);
 }
 
+select#filter-options {
+    width: -moz-fit-content;
+    width: fit-content;
+}
+select#filter-options:focus {
+    box-shadow: 0 0 2px 5px var(--primary-color);
+}
+
 .description {
     color: var(--black-200-color);
 }
