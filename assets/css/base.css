@@ -40,6 +40,10 @@ hr {
     width: 40px;
 }
 
+footer a.text-decoration-none:hover {
+    color: var(--primary-color);
+}
+
 .description {
     color: var(--black-200-color);
 }
@@ -60,9 +64,17 @@ hr {
     z-index: -1;
 }
 
-.shape-white {
-    fill: var(--white-color);
+.shape-white-1 {
     transform: translateY(-2%);
+}
+
+.shape-white-2 {
+    transform: translateY(4%);
+}
+
+.shape-white-1,
+.shape-white-2 {
+    fill: var(--white-color);
 }
 
 .w-fit-content {
@@ -98,7 +110,20 @@ hr {
     background-color: var(--white-color) !important;
 }
 
-.nav-link {
+.bg-secondary {
+    background-color: var(--secondary-color) !important;
+}
+
+.text-secondary {
+    color: var(--secondary-color) !important;
+}
+
+.text-black-200 {
+    color: var(--black-200-color);
+}
+
+.nav-link,
+.nav-link:visited {
     color: var(--secondary-color);
 }
 .nav-link:hover {

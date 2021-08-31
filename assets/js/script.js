@@ -1,0 +1,1 @@
+import { allProducts } from './products'

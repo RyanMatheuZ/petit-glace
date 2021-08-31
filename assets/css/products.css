@@ -1,0 +1,215 @@
+:root {
+    --chocos-cream-one: #480D00;
+    --chocos-cream-two: #7F4C27;
+
+    --sugary-dream-one: #BD2020;
+    --sugary-dream-two: #C56568;
+
+    --green-valley-one: #5A6300;
+    --green-valley-two: #A4B000;
+
+    --ice-tower-one: #768F88;
+    --ice-tower-two: #93AE9F;
+
+    --double-color-one: #137A72;
+    --double-color-two: #46C0C0;
+
+    --sweet-beard-one: #582618;
+    --sweet-beard-two: #7E5447;
+
+    --milk-straw-one: #995C2D;
+    --milk-straw-two: #CD803C;
+
+    --candy-crown-one: #B67E15;
+    --candy-crown-two: #E2BC21;
+
+    --simple-creamy-one: #280B04;
+    --simple-creamy-two: #633926;
+
+    --ovomaltine-one: #522511;
+    --ovomaltine-two: #865640;
+
+    --petit-cream-one: #6E0C0C;
+    --petit-cream-two: #8A0D0D;
+
+    --frozen-coffee-one: #AC885F;
+    --frozen-coffee-two: #D19E63;
+}
+
+.card-ice-cream {
+    border-radius: 10px;
+    height: auto;
+    width: 300px;
+}
+.card div:nth-child(1) {
+    border-radius: 10px 10px 0 0;
+    height: auto;
+}
+
+.chocos-cream-background {
+    background: url('../img/textures/yellow-texture.jpg') no-repeat;
+}
+.chocos-cream-text {
+    color: var(--chocos-cream-one) !important;
+}
+.chocos-cream-hr {
+    border: 2px solid var(--chocos-cream-one);
+    width: 40px;
+}
+.chocos-cream-price {
+    color: var(--chocos-cream-two) !important;
+}
+
+.sugary-dream-background {
+    background: url('../img/textures/red-texture.jpg') no-repeat;
+}
+.sugary-dream-text {
+    color: var(--sugary-dream-one) !important;
+}
+.sugary-dream-hr {
+    border: 2px solid var(--sugary-dream-one);
+    width: 40px;
+}
+.sugary-dream-price {
+    color: var(--sugary-dream-two) !important;
+}
+
+.green-valley-background {
+    background: url('../img/textures/green-texture.jpg') no-repeat;
+}
+.green-valley-text {
+    color: var(--green-valley-one) !important;
+}
+.green-valley-hr {
+    border: 2px solid var(--green-valley-one);
+    width: 40px;
+}
+.green-valley-price {
+    color: var(--green-valley-two) !important;
+}
+
+.ice-tower-background {
+    background: url('../img/textures/white-texture.jpg') no-repeat;
+}
+.ice-tower-text {
+    color: var(--ice-tower-one) !important;
+}
+.ice-tower-hr {
+    border: 2px solid var(--ice-tower-one);
+    width: 40px;
+}
+.ice-tower-price {
+    color: var(--ice-tower-two) !important;
+}
+
+.double-color-background {
+    background: url('../img/textures/pink-texture.jpg') no-repeat;
+}
+.double-color-text {
+    color: var(--double-color-one) !important;
+}
+.double-color-hr {
+    border: 2px solid var(--double-color-one);
+    width: 40px;
+}
+.double-color-price {
+    color: var(--double-color-two) !important;
+}
+
+.sweet-beard-background {
+    background: url('../img/textures/black-texture.jpg') no-repeat;
+}
+.sweet-beard-text {
+    color: var(--sweet-beard-one) !important;
+}
+.sweet-beard-hr {
+    border: 2px solid var(--sweet-beard-one);
+    width: 40px;
+}
+.sweet-beard-price {
+    color: var(--sweet-beard-two) !important;
+}
+
+.milk-straw-background {
+    background: url('../img/textures/orange-texture.jpg') no-repeat;
+}
+.milk-straw-text {
+    color: var(--milk-straw-one) !important;
+}
+.milk-straw-hr {
+    border: 2px solid var(--milk-straw-one);
+    width: 40px;
+}
+.milk-straw-price {
+    color: var(--milk-straw-two) !important;
+}
+
+.candy-crown-background {
+    background: url('../img/textures/sand-texture.jpg') no-repeat;
+}
+.candy-crown-text {
+    color: var(--candy-crown-one) !important;
+}
+.candy-crown-hr {
+    border: 2px solid var(--candy-crown-one);
+    width: 40px;
+}
+.candy-crown-price {
+    color: var(--candy-crown-two) !important;
+}
+
+.simple-creamy-background {
+    background: url('../img/textures/gray-texture.jpg') no-repeat;
+}
+.simple-creamy-text {
+    color: var(--simple-creamy-one) !important;
+}
+.simple-creamy-hr {
+    border: 2px solid var(--simple-creamy-one);
+    width: 40px;
+}
+.simple-creamy-price {
+    color: var(--simple-creamy-two) !important;
+}
+
+.ovomaltine-background {
+    background: url('../img/textures/light-texture.jpg') no-repeat;
+}
+.ovomaltine-text {
+    color: var(--ovomaltine-one) !important;
+}
+.ovomaltine-hr {
+    border: 2px solid var(--ovomaltine-one);
+    width: 40px;
+}
+.ovomaltine-price {
+    color: var(--ovomaltine-two) !important;
+}
+
+.petit-cream-background {
+    background: url('../img/textures/dark-texture.jpg') no-repeat;
+}
+.petit-cream-text {
+    color: var(--petit-cream-one) !important;
+}
+.petit-cream-hr {
+    border: 2px solid var(--petit-cream-one);
+    width: 40px;
+}
+.petit-cream-price {
+    color: var(--petit-cream-two) !important;
+}
+
+.frozen-coffee-background {
+    background: url('../img/textures/bronze-texture.jpg') no-repeat;
+}
+.frozen-coffee-text {
+    color: var(--frozen-coffee-one) !important;
+}
+.frozen-coffee-hr {
+    border: 2px solid var(--frozen-coffee-one);
+    width: 40px;
+}
+.frozen-coffee-price {
+    color: var(--frozen-coffee-two) !important;
+}
