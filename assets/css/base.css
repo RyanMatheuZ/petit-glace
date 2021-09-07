@@ -68,7 +68,7 @@ select#filter-options:focus {
     cursor: default;
 }
 
-.shape-pink {
+.shape-image {
     z-index: -1;
 }
 
@@ -92,7 +92,7 @@ select#filter-options:focus {
 }
 
 @media (max-width: 992px) {
-    .shape-pink {
+    .shape-image {
         width: 95%;
     }
 
