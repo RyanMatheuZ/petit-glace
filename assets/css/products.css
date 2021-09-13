@@ -36,6 +36,11 @@
     --frozen-coffee-two: #D19E63;
 }
 
+h1 {
+    color: var(--secondary-color);
+    font: normal normal 400 clamp(3rem, 5vw - 0.25rem , 3rem)/1 'Pacifico', sans-serif;
+}
+
 .card-ice-cream {
     border-radius: 10px;
     height: auto;
@@ -47,7 +52,7 @@
 }
 
 .chocos-cream-background {
-    background: url('../../../static/textures/yellow-texture.jpg') no-repeat;
+    background: url('../../static/textures/yellow-texture.jpg') no-repeat;
 }
 .chocos-cream-text {
     color: var(--chocos-cream-one) !important;

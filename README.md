@@ -1,4 +1,4 @@
-<img width="80" src="./assets/img/logo/petit-glace-logo.svg" alt="Logo Petit Glace">
+<img width="80" src="./static/logo/petit-glace-logo.svg" alt="Logo Petit Glace">
 
 # Petit Glace
 

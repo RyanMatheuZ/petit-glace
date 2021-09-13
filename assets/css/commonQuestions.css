@@ -1,0 +1,68 @@
+:root {
+    --gray-color: #FAFAFA;
+}
+
+h1 {
+    color: var(--secondary-color);
+    font: normal normal 400 clamp(3rem, 5vw - 0.25rem , 3rem)/1 'Pacifico', sans-serif;
+}
+
+.mg-left {
+    margin-left: 5px;
+}
+
+span.primary-color {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.accordion {
+    padding: 0;
+    width: 65%;
+}
+@media (max-width: 767px) {
+    .accordion {
+        width: 95%;
+    }
+}
+
+.accordion-header .accordion-button {
+    color: var(--black-200-color);
+}
+
+.accordion-button {
+    border-left: 10px solid var(--primary-color);
+    margin-bottom: 0;
+}
+
+.accordion-header .accordion-button,
+.accordion-body > span {
+    font-size: clamp(0.7rem, 5vw - 0.5rem, 1rem);
+}
+
+.accordion-button:focus {
+    background-color: var(--white-color);
+    border-left: 10px solid var(--primary-color);
+    box-shadow: none;
+    color: var(--black-200-color);
+}
+
+.accordion-body {
+    background-color: var(--gray-color);
+}
+
+.accordion-body > span {
+    color: var(--black-color);
+}
+
+.accordion-body > :before {
+    color: var(--secondary-color);
+    content: "-";
+}
+
+.link-certificate a {
+    color: var(--secondary-color);
+}
+.link-certificate a:hover {
+    color: var(--primary-color);
+}
