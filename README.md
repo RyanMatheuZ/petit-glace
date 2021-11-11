@@ -1,11 +1,12 @@
-<img width="80" src="./static/logo/petit-glace-logo.svg" alt="Logo Petit Glace">
+<img width="80" src="./static/logo/petit-glace-logo.svg" alt="Logo Petit Glace" title="Logo Petit Glace">
 
 # Petit Glace
 
 ### About
-Petit Glace is a personal project, about a fictional ice cream parlor.
+Petit Glace is a personal project, about a fictitious ice cream parlor.
 
 ### Technologies / Softwares
+- HTML 5
 - Bootstrap 5
 - JavaScript (ECMAScript 2015+)
 - Adobe Photoshop (22.0)
