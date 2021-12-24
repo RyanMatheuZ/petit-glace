@@ -1,41 +1,29 @@
-import { allProducts } from './products.js'
+import { allProducts } from './products.js';
 
-const filterOptions = document.getElementById('filter-options')
+const filterOptions = document.getElementById('filter-options');
+
+function filterByPrice(minPrice, maxPrice) {
+    allProducts.filter(
+        el => el.price <= minPrice || el.price >= maxPrice)
+    .forEach(
+        el => el.id.style.display = 'none'
+    );
+}
+
+function filterByOrigin(originOfIceCream) {
+    allProducts.filter(
+        el => el.origin !== originOfIceCream)
+    .forEach(
+        el => el.id.style.display = 'none'
+    );
+}
 
 filterOptions.addEventListener('change', () => {
-    allProducts.forEach(
-        el => el.id.style = 'block'
-    )
+    allProducts.forEach(el => el.id.style = 'block');
 
-    if (filterOptions.value === 'between-two-four') {
-        allProducts.filter(
-            el => el.price <= 1.99 || el.price >= 4.99
-        ).forEach(
-            el => el.id.style.display = 'none'
-        )
-    } else if (filterOptions.value === 'between-five-seven') {
-        allProducts.filter(
-            el => el.price <= 5 || el.price >= 7.99
-        ).forEach(
-            el => el.id.style.display = 'none'
-        )
-    } else if (filterOptions.value === 'more-eight') {
-        allProducts.filter(
-            el => el.price <= 7.99
-        ).forEach(
-            el => el.id.style.display = 'none'
-        )
-    } else if (filterOptions.value === 'animal') {
-        allProducts.filter(
-            el => el.origin !== 'animal'
-        ).forEach(
-            el => el.id.style.display = 'none'
-        )
-    } else if (filterOptions.value === 'vegan') {
-        allProducts.filter(
-            el => el.origin !== 'vegan'
-        ).forEach(
-            el => el.id.style.display = 'none'
-        )
-    }
-})
+    if (filterOptions.value === 'between-two-four') filterByPrice(1.99, 4.99);
+    else if (filterOptions.value === 'between-five-seven') filterByPrice(5, 7.99);
+    else if (filterOptions.value === 'more-eight') filterByPrice(7.99, undefined);
+    else if (filterOptions.value === 'animal') filterByOrigin('animal');
+    else if (filterOptions.value === 'vegan') filterByOrigin('vegan');
+});

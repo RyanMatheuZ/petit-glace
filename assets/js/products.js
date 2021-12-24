@@ -59,6 +59,6 @@ const allProducts = [
         origin: 'vegan',
         price: 8.00
     }
-]
+];
 
-export { allProducts }
+export { allProducts };
